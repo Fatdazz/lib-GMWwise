@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC0E9E9925B95A610012F8ED /* libWwise.h in Headers */ = {isa = PBXBuildFile; fileRef = BC0E9E9825B95A610012F8ED /* libWwise.h */; };
+		BC0E9E9D25B95A610012F8ED /* libWwise.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BC0E9E9C25B95A610012F8ED /* libWwise.cpp */; };
+		BC0E9F3225B9668B0012F8ED /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC0E9F3125B9668B0012F8ED /* CoreFoundation.framework */; };
+		BC0E9F3425B966980012F8ED /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC0E9F3325B966980012F8ED /* CoreAudio.framework */; };
+		BC0E9F3625B966D10012F8ED /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC0E9F3525B966D10012F8ED /* AudioToolbox.framework */; };
+		BC0E9FCA25BA7C3A0012F8ED /* libAkCompressorFX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC0E9F9925BA7C380012F8ED /* libAkCompressorFX.a */; };
+		BC0E9FCB25BA7C3A0012F8ED /* libAkMatrixReverbFX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC0E9F9A25BA7C380012F8ED /* libAkMatrixReverbFX.a */; };
+		BC0E9FCC25BA7C3A0012F8ED /* libAkGainFX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC0E9F9B25BA7C380012F8ED /* libAkGainFX.a */; };
+		BC0E9FCD25BA7C3A0012F8ED /* libAkStreamMgr.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC0E9F9C25BA7C380012F8ED /* libAkStreamMgr.a */; };
+		BC0E9FCE25BA7C3A0012F8ED /* libAkStereoDelayFX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC0E9F9D25BA7C380012F8ED /* libAkStereoDelayFX.a */; };
+		BC0E9FCF25BA7C3A0012F8ED /* libAkSoundSeedImpactFX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC0E9F9E25BA7C380012F8ED /* libAkSoundSeedImpactFX.a */; };
+		BC0E9FD125BA7C3A0012F8ED /* libAkSpatialAudio.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC0E9FA025BA7C380012F8ED /* libAkSpatialAudio.a */; };
+		BC0E9FD225BA7C3A0012F8ED /* libAkPeakLimiterFX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC0E9FA125BA7C380012F8ED /* libAkPeakLimiterFX.a */; };
+		BC0E9FD325BA7C3A0012F8ED /* libAkAutobahn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC0E9FA225BA7C380012F8ED /* libAkAutobahn.a */; };
+		BC0E9FD425BA7C3A0012F8ED /* libAkGuitarDistortionFX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC0E9FA325BA7C380012F8ED /* libAkGuitarDistortionFX.a */; };
+		BC0E9FD525BA7C3A0012F8ED /* libiZHybridReverbFX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC0E9FA425BA7C380012F8ED /* libiZHybridReverbFX.a */; };
+		BC0E9FD625BA7C3A0012F8ED /* libAkVorbisDecoder.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC0E9FA525BA7C380012F8ED /* libAkVorbisDecoder.a */; };
+		BC0E9FD725BA7C3A0012F8ED /* libiZTrashBoxModelerFX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC0E9FA625BA7C390012F8ED /* libiZTrashBoxModelerFX.a */; };
+		BC0E9FD825BA7C3A0012F8ED /* libAkHarmonizerFX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC0E9FA725BA7C390012F8ED /* libAkHarmonizerFX.a */; };
+		BC0E9FD925BA7C3A0012F8ED /* libAkSoundSeedWindSource.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC0E9FA825BA7C390012F8ED /* libAkSoundSeedWindSource.a */; };
+		BC0E9FDA25BA7C3A0012F8ED /* libAkSineSource.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC0E9FA925BA7C390012F8ED /* libAkSineSource.a */; };
+		BC0E9FDB25BA7C3A0012F8ED /* libMcDSPLimiterFX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC0E9FAA25BA7C390012F8ED /* libMcDSPLimiterFX.a */; };
+		BC0E9FDD25BA7C3A0012F8ED /* libAkRouterMixerFX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC0E9FAC25BA7C390012F8ED /* libAkRouterMixerFX.a */; };
+		BC0E9FDE25BA7C3A0012F8ED /* libAkAudioInputSource.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC0E9FAD25BA7C390012F8ED /* libAkAudioInputSource.a */; };
+		BC0E9FDF25BA7C3A0012F8ED /* libAkPitchShifterFX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC0E9FAE25BA7C390012F8ED /* libAkPitchShifterFX.a */; };
+		BC0E9FE025BA7C3A0012F8ED /* libAkConvolutionReverbFX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC0E9FAF25BA7C390012F8ED /* libAkConvolutionReverbFX.a */; };
+		BC0E9FE125BA7C3A0012F8ED /* libAkToneSource.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC0E9FB025BA7C390012F8ED /* libAkToneSource.a */; };
+		BC0E9FE225BA7C3A0012F8ED /* libAkOpusDecoder.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC0E9FB125BA7C390012F8ED /* libAkOpusDecoder.a */; };
+		BC0E9FE325BA7C3A0012F8ED /* libAkAACDecoder.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC0E9FB225BA7C390012F8ED /* libAkAACDecoder.a */; };
+		BC0E9FE425BA7C3A0012F8ED /* libAuroHeadphoneFX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC0E9FB325BA7C390012F8ED /* libAuroHeadphoneFX.a */; };
+		BC0E9FE525BA7C3A0012F8ED /* libAkRecorderFX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC0E9FB425BA7C390012F8ED /* libAkRecorderFX.a */; };
+		BC0E9FE625BA7C3A0012F8ED /* libiZTrashDistortionFX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC0E9FB525BA7C390012F8ED /* libiZTrashDistortionFX.a */; };
+		BC0E9FE725BA7C3A0012F8ED /* libiZTrashFiltersFX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC0E9FB625BA7C390012F8ED /* libiZTrashFiltersFX.a */; };
+		BC0E9FE825BA7C3A0012F8ED /* libiZTrashDelayFX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC0E9FB725BA7C390012F8ED /* libiZTrashDelayFX.a */; };
+		BC0E9FE925BA7C3A0012F8ED /* libAkParametricEQFX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC0E9FB825BA7C390012F8ED /* libAkParametricEQFX.a */; };
+		BC0E9FEA25BA7C3A0012F8ED /* libAkRoomVerbFX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC0E9FB925BA7C390012F8ED /* libAkRoomVerbFX.a */; };
+		BC0E9FEB25BA7C3A0012F8ED /* libAkDelayFX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC0E9FBA25BA7C390012F8ED /* libAkDelayFX.a */; };
+		BC0E9FEC25BA7C3A0012F8ED /* libAkMeterFX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC0E9FBB25BA7C390012F8ED /* libAkMeterFX.a */; };
+		BC0E9FED25BA7C3A0012F8ED /* libMcDSPFutzBoxFX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC0E9FBC25BA7C3A0012F8ED /* libMcDSPFutzBoxFX.a */; };
+		BC0E9FEE25BA7C3A0012F8ED /* libAkMemoryMgr.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC0E9FBD25BA7C3A0012F8ED /* libAkMemoryMgr.a */; };
+		BC0E9FEF25BA7C3A0012F8ED /* libAkMusicEngine.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC0E9FBE25BA7C3A0012F8ED /* libAkMusicEngine.a */; };
+		BC0E9FF025BA7C3A0012F8ED /* libAkExpanderFX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC0E9FBF25BA7C3A0012F8ED /* libAkExpanderFX.a */; };
+		BC0E9FF125BA7C3A0012F8ED /* libAkSoundSeedGrainSource.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC0E9FC025BA7C3A0012F8ED /* libAkSoundSeedGrainSource.a */; };
+		BC0E9FF225BA7C3A0012F8ED /* libAkSoundSeedWooshSource.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC0E9FC125BA7C3A0012F8ED /* libAkSoundSeedWooshSource.a */; };
+		BC0E9FF325BA7C3A0012F8ED /* libAkSilenceSource.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC0E9FC225BA7C3A0012F8ED /* libAkSilenceSource.a */; };
+		BC0E9FF425BA7C3A0012F8ED /* libiZTrashDynamicsFX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC0E9FC325BA7C3A0012F8ED /* libiZTrashDynamicsFX.a */; };
+		BC0E9FF525BA7C3A0012F8ED /* libiZTrashMultibandDistortionFX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC0E9FC425BA7C3A0012F8ED /* libiZTrashMultibandDistortionFX.a */; };
+		BC0E9FF625BA7C3A0012F8ED /* libAkReflectFX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC0E9FC525BA7C3A0012F8ED /* libAkReflectFX.a */; };
+		BC0E9FF725BA7C3A0012F8ED /* libAkTremoloFX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC0E9FC625BA7C3A0012F8ED /* libAkTremoloFX.a */; };
+		BC0E9FF825BA7C3A0012F8ED /* libAkFlangerFX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC0E9FC725BA7C3A0012F8ED /* libAkFlangerFX.a */; };
+		BC0E9FF925BA7C3B0012F8ED /* libAkTimeStretchFX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC0E9FC825BA7C3A0012F8ED /* libAkTimeStretchFX.a */; };
+		BC0E9FFA25BA7C3B0012F8ED /* libAkSynthOneSource.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC0E9FC925BA7C3A0012F8ED /* libAkSynthOneSource.a */; };
+		BC0E9FFB25BA7D2D0012F8ED /* libAkSoundEngine.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC0E9F9F25BA7C380012F8ED /* libAkSoundEngine.a */; };
+		BC0E9FFC25BA7D870012F8ED /* libMasteringSuiteFX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC0E9FAB25BA7C390012F8ED /* libMasteringSuiteFX.a */; };
+		BC0EA00625BA8A6B0012F8ED /* AkDefaultIOHookBlocking.h in Headers */ = {isa = PBXBuildFile; fileRef = BC0E9FFD25BA8A6A0012F8ED /* AkDefaultIOHookBlocking.h */; };
+		BC0EA00725BA8A6B0012F8ED /* AkDefaultIOHookDeferred.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BC0E9FFE25BA8A6A0012F8ED /* AkDefaultIOHookDeferred.cpp */; };
+		BC0EA00825BA8A6B0012F8ED /* AkFilePackageLowLevelIODeferred.h in Headers */ = {isa = PBXBuildFile; fileRef = BC0E9FFF25BA8A6A0012F8ED /* AkFilePackageLowLevelIODeferred.h */; };
+		BC0EA00925BA8A6B0012F8ED /* AkDefaultIOHookBlocking.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BC0EA00025BA8A6A0012F8ED /* AkDefaultIOHookBlocking.cpp */; };
+		BC0EA00A25BA8A6B0012F8ED /* AkFilePackageLowLevelIOBlocking.h in Headers */ = {isa = PBXBuildFile; fileRef = BC0EA00125BA8A6A0012F8ED /* AkFilePackageLowLevelIOBlocking.h */; };
+		BC0EA00B25BA8A6B0012F8ED /* stdafx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BC0EA00225BA8A6B0012F8ED /* stdafx.cpp */; };
+		BC0EA00C25BA8A6B0012F8ED /* stdafx.h in Headers */ = {isa = PBXBuildFile; fileRef = BC0EA00325BA8A6B0012F8ED /* stdafx.h */; };
+		BC0EA00D25BA8A6B0012F8ED /* AkDefaultIOHookDeferred.h in Headers */ = {isa = PBXBuildFile; fileRef = BC0EA00425BA8A6B0012F8ED /* AkDefaultIOHookDeferred.h */; };
+		BC0EA00E25BA8A6B0012F8ED /* AkFileHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = BC0EA00525BA8A6B0012F8ED /* AkFileHelpers.h */; };
+		BC0EA01B25BA8A830012F8ED /* AkFileLocationBase.h in Headers */ = {isa = PBXBuildFile; fileRef = BC0EA00F25BA8A820012F8ED /* AkFileLocationBase.h */; };
+		BC0EA01C25BA8A830012F8ED /* AkFilePackageLowLevelIO.h in Headers */ = {isa = PBXBuildFile; fileRef = BC0EA01025BA8A820012F8ED /* AkFilePackageLowLevelIO.h */; };
+		BC0EA01D25BA8A830012F8ED /* AkDefaultLowLevelIODispatcher.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BC0EA01125BA8A820012F8ED /* AkDefaultLowLevelIODispatcher.cpp */; };
+		BC0EA01E25BA8A830012F8ED /* AkFilePackageLUT.h in Headers */ = {isa = PBXBuildFile; fileRef = BC0EA01225BA8A820012F8ED /* AkFilePackageLUT.h */; };
+		BC0EA01F25BA8A830012F8ED /* AkMultipleFileLocation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BC0EA01325BA8A820012F8ED /* AkMultipleFileLocation.cpp */; };
+		BC0EA02025BA8A830012F8ED /* AkFileLocationBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BC0EA01425BA8A820012F8ED /* AkFileLocationBase.cpp */; };
+		BC0EA02125BA8A830012F8ED /* AkFilePackage.h in Headers */ = {isa = PBXBuildFile; fileRef = BC0EA01525BA8A820012F8ED /* AkFilePackage.h */; };
+		BC0EA02225BA8A830012F8ED /* AkMultipleFileLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = BC0EA01725BA8A820012F8ED /* AkMultipleFileLocation.h */; };
+		BC0EA02325BA8A830012F8ED /* AkDefaultLowLevelIODispatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = BC0EA01825BA8A820012F8ED /* AkDefaultLowLevelIODispatcher.h */; };
+		BC0EA02425BA8A830012F8ED /* AkFilePackageLUT.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BC0EA01925BA8A820012F8ED /* AkFilePackageLUT.cpp */; };
+		BC0EA02525BA8A830012F8ED /* AkFilePackage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BC0EA01A25BA8A820012F8ED /* AkFilePackage.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BC0E9E9525B95A610012F8ED /* liblibWwise.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = liblibWwise.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC0E9E9825B95A610012F8ED /* libWwise.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = libWwise.h; sourceTree = "<group>"; };
+		BC0E9E9C25B95A610012F8ED /* libWwise.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = libWwise.cpp; sourceTree = "<group>"; };
+		BC0E9F3125B9668B0012F8ED /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		BC0E9F3325B966980012F8ED /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		BC0E9F3525B966D10012F8ED /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		BC0E9F9925BA7C380012F8ED /* libAkCompressorFX.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAkCompressorFX.a; path = "../../../../../Applications/Audiokinetic/Wwise 2019.2.7.7402/SDK/Mac/Release/lib/libAkCompressorFX.a"; sourceTree = "<group>"; };
+		BC0E9F9A25BA7C380012F8ED /* libAkMatrixReverbFX.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAkMatrixReverbFX.a; path = "../../../../../Applications/Audiokinetic/Wwise 2019.2.7.7402/SDK/Mac/Release/lib/libAkMatrixReverbFX.a"; sourceTree = "<group>"; };
+		BC0E9F9B25BA7C380012F8ED /* libAkGainFX.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAkGainFX.a; path = "../../../../../Applications/Audiokinetic/Wwise 2019.2.7.7402/SDK/Mac/Release/lib/libAkGainFX.a"; sourceTree = "<group>"; };
+		BC0E9F9C25BA7C380012F8ED /* libAkStreamMgr.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAkStreamMgr.a; path = "../../../../../Applications/Audiokinetic/Wwise 2019.2.7.7402/SDK/Mac/Release/lib/libAkStreamMgr.a"; sourceTree = "<group>"; };
+		BC0E9F9D25BA7C380012F8ED /* libAkStereoDelayFX.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAkStereoDelayFX.a; path = "../../../../../Applications/Audiokinetic/Wwise 2019.2.7.7402/SDK/Mac/Release/lib/libAkStereoDelayFX.a"; sourceTree = "<group>"; };
+		BC0E9F9E25BA7C380012F8ED /* libAkSoundSeedImpactFX.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAkSoundSeedImpactFX.a; path = "../../../../../Applications/Audiokinetic/Wwise 2019.2.7.7402/SDK/Mac/Release/lib/libAkSoundSeedImpactFX.a"; sourceTree = "<group>"; };
+		BC0E9F9F25BA7C380012F8ED /* libAkSoundEngine.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAkSoundEngine.a; path = "../../../../../Applications/Audiokinetic/Wwise 2019.2.7.7402/SDK/Mac/Release/lib/libAkSoundEngine.a"; sourceTree = "<group>"; };
+		BC0E9FA025BA7C380012F8ED /* libAkSpatialAudio.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAkSpatialAudio.a; path = "../../../../../Applications/Audiokinetic/Wwise 2019.2.7.7402/SDK/Mac/Release/lib/libAkSpatialAudio.a"; sourceTree = "<group>"; };
+		BC0E9FA125BA7C380012F8ED /* libAkPeakLimiterFX.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAkPeakLimiterFX.a; path = "../../../../../Applications/Audiokinetic/Wwise 2019.2.7.7402/SDK/Mac/Release/lib/libAkPeakLimiterFX.a"; sourceTree = "<group>"; };
+		BC0E9FA225BA7C380012F8ED /* libAkAutobahn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAkAutobahn.a; path = "../../../../../Applications/Audiokinetic/Wwise 2019.2.7.7402/SDK/Mac/Release/lib/libAkAutobahn.a"; sourceTree = "<group>"; };
+		BC0E9FA325BA7C380012F8ED /* libAkGuitarDistortionFX.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAkGuitarDistortionFX.a; path = "../../../../../Applications/Audiokinetic/Wwise 2019.2.7.7402/SDK/Mac/Release/lib/libAkGuitarDistortionFX.a"; sourceTree = "<group>"; };
+		BC0E9FA425BA7C380012F8ED /* libiZHybridReverbFX.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libiZHybridReverbFX.a; path = "../../../../../Applications/Audiokinetic/Wwise 2019.2.7.7402/SDK/Mac/Release/lib/libiZHybridReverbFX.a"; sourceTree = "<group>"; };
+		BC0E9FA525BA7C380012F8ED /* libAkVorbisDecoder.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAkVorbisDecoder.a; path = "../../../../../Applications/Audiokinetic/Wwise 2019.2.7.7402/SDK/Mac/Release/lib/libAkVorbisDecoder.a"; sourceTree = "<group>"; };
+		BC0E9FA625BA7C390012F8ED /* libiZTrashBoxModelerFX.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libiZTrashBoxModelerFX.a; path = "../../../../../Applications/Audiokinetic/Wwise 2019.2.7.7402/SDK/Mac/Release/lib/libiZTrashBoxModelerFX.a"; sourceTree = "<group>"; };
+		BC0E9FA725BA7C390012F8ED /* libAkHarmonizerFX.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAkHarmonizerFX.a; path = "../../../../../Applications/Audiokinetic/Wwise 2019.2.7.7402/SDK/Mac/Release/lib/libAkHarmonizerFX.a"; sourceTree = "<group>"; };
+		BC0E9FA825BA7C390012F8ED /* libAkSoundSeedWindSource.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAkSoundSeedWindSource.a; path = "../../../../../Applications/Audiokinetic/Wwise 2019.2.7.7402/SDK/Mac/Release/lib/libAkSoundSeedWindSource.a"; sourceTree = "<group>"; };
+		BC0E9FA925BA7C390012F8ED /* libAkSineSource.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAkSineSource.a; path = "../../../../../Applications/Audiokinetic/Wwise 2019.2.7.7402/SDK/Mac/Release/lib/libAkSineSource.a"; sourceTree = "<group>"; };
+		BC0E9FAA25BA7C390012F8ED /* libMcDSPLimiterFX.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMcDSPLimiterFX.a; path = "../../../../../Applications/Audiokinetic/Wwise 2019.2.7.7402/SDK/Mac/Release/lib/libMcDSPLimiterFX.a"; sourceTree = "<group>"; };
+		BC0E9FAB25BA7C390012F8ED /* libMasteringSuiteFX.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMasteringSuiteFX.a; path = "../../../../../Applications/Audiokinetic/Wwise 2019.2.7.7402/SDK/Mac/Release/lib/libMasteringSuiteFX.a"; sourceTree = "<group>"; };
+		BC0E9FAC25BA7C390012F8ED /* libAkRouterMixerFX.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAkRouterMixerFX.a; path = "../../../../../Applications/Audiokinetic/Wwise 2019.2.7.7402/SDK/Mac/Release/lib/libAkRouterMixerFX.a"; sourceTree = "<group>"; };
+		BC0E9FAD25BA7C390012F8ED /* libAkAudioInputSource.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAkAudioInputSource.a; path = "../../../../../Applications/Audiokinetic/Wwise 2019.2.7.7402/SDK/Mac/Release/lib/libAkAudioInputSource.a"; sourceTree = "<group>"; };
+		BC0E9FAE25BA7C390012F8ED /* libAkPitchShifterFX.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAkPitchShifterFX.a; path = "../../../../../Applications/Audiokinetic/Wwise 2019.2.7.7402/SDK/Mac/Release/lib/libAkPitchShifterFX.a"; sourceTree = "<group>"; };
+		BC0E9FAF25BA7C390012F8ED /* libAkConvolutionReverbFX.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAkConvolutionReverbFX.a; path = "../../../../../Applications/Audiokinetic/Wwise 2019.2.7.7402/SDK/Mac/Release/lib/libAkConvolutionReverbFX.a"; sourceTree = "<group>"; };
+		BC0E9FB025BA7C390012F8ED /* libAkToneSource.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAkToneSource.a; path = "../../../../../Applications/Audiokinetic/Wwise 2019.2.7.7402/SDK/Mac/Release/lib/libAkToneSource.a"; sourceTree = "<group>"; };
+		BC0E9FB125BA7C390012F8ED /* libAkOpusDecoder.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAkOpusDecoder.a; path = "../../../../../Applications/Audiokinetic/Wwise 2019.2.7.7402/SDK/Mac/Release/lib/libAkOpusDecoder.a"; sourceTree = "<group>"; };
+		BC0E9FB225BA7C390012F8ED /* libAkAACDecoder.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAkAACDecoder.a; path = "../../../../../Applications/Audiokinetic/Wwise 2019.2.7.7402/SDK/Mac/Release/lib/libAkAACDecoder.a"; sourceTree = "<group>"; };
+		BC0E9FB325BA7C390012F8ED /* libAuroHeadphoneFX.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAuroHeadphoneFX.a; path = "../../../../../Applications/Audiokinetic/Wwise 2019.2.7.7402/SDK/Mac/Release/lib/libAuroHeadphoneFX.a"; sourceTree = "<group>"; };
+		BC0E9FB425BA7C390012F8ED /* libAkRecorderFX.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAkRecorderFX.a; path = "../../../../../Applications/Audiokinetic/Wwise 2019.2.7.7402/SDK/Mac/Release/lib/libAkRecorderFX.a"; sourceTree = "<group>"; };
+		BC0E9FB525BA7C390012F8ED /* libiZTrashDistortionFX.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libiZTrashDistortionFX.a; path = "../../../../../Applications/Audiokinetic/Wwise 2019.2.7.7402/SDK/Mac/Release/lib/libiZTrashDistortionFX.a"; sourceTree = "<group>"; };
+		BC0E9FB625BA7C390012F8ED /* libiZTrashFiltersFX.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libiZTrashFiltersFX.a; path = "../../../../../Applications/Audiokinetic/Wwise 2019.2.7.7402/SDK/Mac/Release/lib/libiZTrashFiltersFX.a"; sourceTree = "<group>"; };
+		BC0E9FB725BA7C390012F8ED /* libiZTrashDelayFX.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libiZTrashDelayFX.a; path = "../../../../../Applications/Audiokinetic/Wwise 2019.2.7.7402/SDK/Mac/Release/lib/libiZTrashDelayFX.a"; sourceTree = "<group>"; };
+		BC0E9FB825BA7C390012F8ED /* libAkParametricEQFX.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAkParametricEQFX.a; path = "../../../../../Applications/Audiokinetic/Wwise 2019.2.7.7402/SDK/Mac/Release/lib/libAkParametricEQFX.a"; sourceTree = "<group>"; };
+		BC0E9FB925BA7C390012F8ED /* libAkRoomVerbFX.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAkRoomVerbFX.a; path = "../../../../../Applications/Audiokinetic/Wwise 2019.2.7.7402/SDK/Mac/Release/lib/libAkRoomVerbFX.a"; sourceTree = "<group>"; };
+		BC0E9FBA25BA7C390012F8ED /* libAkDelayFX.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAkDelayFX.a; path = "../../../../../Applications/Audiokinetic/Wwise 2019.2.7.7402/SDK/Mac/Release/lib/libAkDelayFX.a"; sourceTree = "<group>"; };
+		BC0E9FBB25BA7C390012F8ED /* libAkMeterFX.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAkMeterFX.a; path = "../../../../../Applications/Audiokinetic/Wwise 2019.2.7.7402/SDK/Mac/Release/lib/libAkMeterFX.a"; sourceTree = "<group>"; };
+		BC0E9FBC25BA7C3A0012F8ED /* libMcDSPFutzBoxFX.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMcDSPFutzBoxFX.a; path = "../../../../../Applications/Audiokinetic/Wwise 2019.2.7.7402/SDK/Mac/Release/lib/libMcDSPFutzBoxFX.a"; sourceTree = "<group>"; };
+		BC0E9FBD25BA7C3A0012F8ED /* libAkMemoryMgr.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAkMemoryMgr.a; path = "../../../../../Applications/Audiokinetic/Wwise 2019.2.7.7402/SDK/Mac/Release/lib/libAkMemoryMgr.a"; sourceTree = "<group>"; };
+		BC0E9FBE25BA7C3A0012F8ED /* libAkMusicEngine.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAkMusicEngine.a; path = "../../../../../Applications/Audiokinetic/Wwise 2019.2.7.7402/SDK/Mac/Release/lib/libAkMusicEngine.a"; sourceTree = "<group>"; };
+		BC0E9FBF25BA7C3A0012F8ED /* libAkExpanderFX.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAkExpanderFX.a; path = "../../../../../Applications/Audiokinetic/Wwise 2019.2.7.7402/SDK/Mac/Release/lib/libAkExpanderFX.a"; sourceTree = "<group>"; };
+		BC0E9FC025BA7C3A0012F8ED /* libAkSoundSeedGrainSource.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAkSoundSeedGrainSource.a; path = "../../../../../Applications/Audiokinetic/Wwise 2019.2.7.7402/SDK/Mac/Release/lib/libAkSoundSeedGrainSource.a"; sourceTree = "<group>"; };
+		BC0E9FC125BA7C3A0012F8ED /* libAkSoundSeedWooshSource.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAkSoundSeedWooshSource.a; path = "../../../../../Applications/Audiokinetic/Wwise 2019.2.7.7402/SDK/Mac/Release/lib/libAkSoundSeedWooshSource.a"; sourceTree = "<group>"; };
+		BC0E9FC225BA7C3A0012F8ED /* libAkSilenceSource.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAkSilenceSource.a; path = "../../../../../Applications/Audiokinetic/Wwise 2019.2.7.7402/SDK/Mac/Release/lib/libAkSilenceSource.a"; sourceTree = "<group>"; };
+		BC0E9FC325BA7C3A0012F8ED /* libiZTrashDynamicsFX.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libiZTrashDynamicsFX.a; path = "../../../../../Applications/Audiokinetic/Wwise 2019.2.7.7402/SDK/Mac/Release/lib/libiZTrashDynamicsFX.a"; sourceTree = "<group>"; };
+		BC0E9FC425BA7C3A0012F8ED /* libiZTrashMultibandDistortionFX.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libiZTrashMultibandDistortionFX.a; path = "../../../../../Applications/Audiokinetic/Wwise 2019.2.7.7402/SDK/Mac/Release/lib/libiZTrashMultibandDistortionFX.a"; sourceTree = "<group>"; };
+		BC0E9FC525BA7C3A0012F8ED /* libAkReflectFX.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAkReflectFX.a; path = "../../../../../Applications/Audiokinetic/Wwise 2019.2.7.7402/SDK/Mac/Release/lib/libAkReflectFX.a"; sourceTree = "<group>"; };
+		BC0E9FC625BA7C3A0012F8ED /* libAkTremoloFX.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAkTremoloFX.a; path = "../../../../../Applications/Audiokinetic/Wwise 2019.2.7.7402/SDK/Mac/Release/lib/libAkTremoloFX.a"; sourceTree = "<group>"; };
+		BC0E9FC725BA7C3A0012F8ED /* libAkFlangerFX.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAkFlangerFX.a; path = "../../../../../Applications/Audiokinetic/Wwise 2019.2.7.7402/SDK/Mac/Release/lib/libAkFlangerFX.a"; sourceTree = "<group>"; };
+		BC0E9FC825BA7C3A0012F8ED /* libAkTimeStretchFX.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAkTimeStretchFX.a; path = "../../../../../Applications/Audiokinetic/Wwise 2019.2.7.7402/SDK/Mac/Release/lib/libAkTimeStretchFX.a"; sourceTree = "<group>"; };
+		BC0E9FC925BA7C3A0012F8ED /* libAkSynthOneSource.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAkSynthOneSource.a; path = "../../../../../Applications/Audiokinetic/Wwise 2019.2.7.7402/SDK/Mac/Release/lib/libAkSynthOneSource.a"; sourceTree = "<group>"; };
+		BC0E9FFD25BA8A6A0012F8ED /* AkDefaultIOHookBlocking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AkDefaultIOHookBlocking.h; path = "../../../../../../../Applications/Audiokinetic/Wwise 2019.2.7.7402/SDK/samples/SoundEngine/POSIX/AkDefaultIOHookBlocking.h"; sourceTree = "<group>"; };
+		BC0E9FFE25BA8A6A0012F8ED /* AkDefaultIOHookDeferred.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AkDefaultIOHookDeferred.cpp; path = "../../../../../../../Applications/Audiokinetic/Wwise 2019.2.7.7402/SDK/samples/SoundEngine/POSIX/AkDefaultIOHookDeferred.cpp"; sourceTree = "<group>"; };
+		BC0E9FFF25BA8A6A0012F8ED /* AkFilePackageLowLevelIODeferred.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AkFilePackageLowLevelIODeferred.h; path = "../../../../../../../Applications/Audiokinetic/Wwise 2019.2.7.7402/SDK/samples/SoundEngine/POSIX/AkFilePackageLowLevelIODeferred.h"; sourceTree = "<group>"; };
+		BC0EA00025BA8A6A0012F8ED /* AkDefaultIOHookBlocking.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AkDefaultIOHookBlocking.cpp; path = "../../../../../../../Applications/Audiokinetic/Wwise 2019.2.7.7402/SDK/samples/SoundEngine/POSIX/AkDefaultIOHookBlocking.cpp"; sourceTree = "<group>"; };
+		BC0EA00125BA8A6A0012F8ED /* AkFilePackageLowLevelIOBlocking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AkFilePackageLowLevelIOBlocking.h; path = "../../../../../../../Applications/Audiokinetic/Wwise 2019.2.7.7402/SDK/samples/SoundEngine/POSIX/AkFilePackageLowLevelIOBlocking.h"; sourceTree = "<group>"; };
+		BC0EA00225BA8A6B0012F8ED /* stdafx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = stdafx.cpp; path = "../../../../../../../Applications/Audiokinetic/Wwise 2019.2.7.7402/SDK/samples/SoundEngine/POSIX/stdafx.cpp"; sourceTree = "<group>"; };
+		BC0EA00325BA8A6B0012F8ED /* stdafx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stdafx.h; path = "../../../../../../../Applications/Audiokinetic/Wwise 2019.2.7.7402/SDK/samples/SoundEngine/POSIX/stdafx.h"; sourceTree = "<group>"; };
+		BC0EA00425BA8A6B0012F8ED /* AkDefaultIOHookDeferred.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AkDefaultIOHookDeferred.h; path = "../../../../../../../Applications/Audiokinetic/Wwise 2019.2.7.7402/SDK/samples/SoundEngine/POSIX/AkDefaultIOHookDeferred.h"; sourceTree = "<group>"; };
+		BC0EA00525BA8A6B0012F8ED /* AkFileHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AkFileHelpers.h; path = "../../../../../../../Applications/Audiokinetic/Wwise 2019.2.7.7402/SDK/samples/SoundEngine/POSIX/AkFileHelpers.h"; sourceTree = "<group>"; };
+		BC0EA00F25BA8A820012F8ED /* AkFileLocationBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AkFileLocationBase.h; path = "../../../../../../../Applications/Audiokinetic/Wwise 2019.2.7.7402/SDK/samples/SoundEngine/Common/AkFileLocationBase.h"; sourceTree = "<group>"; };
+		BC0EA01025BA8A820012F8ED /* AkFilePackageLowLevelIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AkFilePackageLowLevelIO.h; path = "../../../../../../../Applications/Audiokinetic/Wwise 2019.2.7.7402/SDK/samples/SoundEngine/Common/AkFilePackageLowLevelIO.h"; sourceTree = "<group>"; };
+		BC0EA01125BA8A820012F8ED /* AkDefaultLowLevelIODispatcher.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AkDefaultLowLevelIODispatcher.cpp; path = "../../../../../../../Applications/Audiokinetic/Wwise 2019.2.7.7402/SDK/samples/SoundEngine/Common/AkDefaultLowLevelIODispatcher.cpp"; sourceTree = "<group>"; };
+		BC0EA01225BA8A820012F8ED /* AkFilePackageLUT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AkFilePackageLUT.h; path = "../../../../../../../Applications/Audiokinetic/Wwise 2019.2.7.7402/SDK/samples/SoundEngine/Common/AkFilePackageLUT.h"; sourceTree = "<group>"; };
+		BC0EA01325BA8A820012F8ED /* AkMultipleFileLocation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AkMultipleFileLocation.cpp; path = "../../../../../../../Applications/Audiokinetic/Wwise 2019.2.7.7402/SDK/samples/SoundEngine/Common/AkMultipleFileLocation.cpp"; sourceTree = "<group>"; };
+		BC0EA01425BA8A820012F8ED /* AkFileLocationBase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AkFileLocationBase.cpp; path = "../../../../../../../Applications/Audiokinetic/Wwise 2019.2.7.7402/SDK/samples/SoundEngine/Common/AkFileLocationBase.cpp"; sourceTree = "<group>"; };
+		BC0EA01525BA8A820012F8ED /* AkFilePackage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AkFilePackage.h; path = "../../../../../../../Applications/Audiokinetic/Wwise 2019.2.7.7402/SDK/samples/SoundEngine/Common/AkFilePackage.h"; sourceTree = "<group>"; };
+		BC0EA01625BA8A820012F8ED /* AkFilePackageLowLevelIO.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = AkFilePackageLowLevelIO.inl; path = "../../../../../../../Applications/Audiokinetic/Wwise 2019.2.7.7402/SDK/samples/SoundEngine/Common/AkFilePackageLowLevelIO.inl"; sourceTree = "<group>"; };
+		BC0EA01725BA8A820012F8ED /* AkMultipleFileLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AkMultipleFileLocation.h; path = "../../../../../../../Applications/Audiokinetic/Wwise 2019.2.7.7402/SDK/samples/SoundEngine/Common/AkMultipleFileLocation.h"; sourceTree = "<group>"; };
+		BC0EA01825BA8A820012F8ED /* AkDefaultLowLevelIODispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AkDefaultLowLevelIODispatcher.h; path = "../../../../../../../Applications/Audiokinetic/Wwise 2019.2.7.7402/SDK/samples/SoundEngine/Common/AkDefaultLowLevelIODispatcher.h"; sourceTree = "<group>"; };
+		BC0EA01925BA8A820012F8ED /* AkFilePackageLUT.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AkFilePackageLUT.cpp; path = "../../../../../../../Applications/Audiokinetic/Wwise 2019.2.7.7402/SDK/samples/SoundEngine/Common/AkFilePackageLUT.cpp"; sourceTree = "<group>"; };
+		BC0EA01A25BA8A820012F8ED /* AkFilePackage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AkFilePackage.cpp; path = "../../../../../../../Applications/Audiokinetic/Wwise 2019.2.7.7402/SDK/samples/SoundEngine/Common/AkFilePackage.cpp"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC0E9E9325B95A610012F8ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC0E9FED25BA7C3A0012F8ED /* libMcDSPFutzBoxFX.a in Frameworks */,
+				BC0E9FDB25BA7C3A0012F8ED /* libMcDSPLimiterFX.a in Frameworks */,
+				BC0E9FD525BA7C3A0012F8ED /* libiZHybridReverbFX.a in Frameworks */,
+				BC0E9FE725BA7C3A0012F8ED /* libiZTrashFiltersFX.a in Frameworks */,
+				BC0E9FD725BA7C3A0012F8ED /* libiZTrashBoxModelerFX.a in Frameworks */,
+				BC0E9FF525BA7C3A0012F8ED /* libiZTrashMultibandDistortionFX.a in Frameworks */,
+				BC0E9FF425BA7C3A0012F8ED /* libiZTrashDynamicsFX.a in Frameworks */,
+				BC0E9FE625BA7C3A0012F8ED /* libiZTrashDistortionFX.a in Frameworks */,
+				BC0E9FE825BA7C3A0012F8ED /* libiZTrashDelayFX.a in Frameworks */,
+				BC0E9FE425BA7C3A0012F8ED /* libAuroHeadphoneFX.a in Frameworks */,
+				BC0E9FE325BA7C3A0012F8ED /* libAkAACDecoder.a in Frameworks */,
+				BC0E9FF025BA7C3A0012F8ED /* libAkExpanderFX.a in Frameworks */,
+				BC0E9FD125BA7C3A0012F8ED /* libAkSpatialAudio.a in Frameworks */,
+				BC0E9FDD25BA7C3A0012F8ED /* libAkRouterMixerFX.a in Frameworks */,
+				BC0E9FEB25BA7C3A0012F8ED /* libAkDelayFX.a in Frameworks */,
+				BC0E9FDA25BA7C3A0012F8ED /* libAkSineSource.a in Frameworks */,
+				BC0E9FDE25BA7C3A0012F8ED /* libAkAudioInputSource.a in Frameworks */,
+				BC0E9FEC25BA7C3A0012F8ED /* libAkMeterFX.a in Frameworks */,
+				BC0E9FF125BA7C3A0012F8ED /* libAkSoundSeedGrainSource.a in Frameworks */,
+				BC0E9FE925BA7C3A0012F8ED /* libAkParametricEQFX.a in Frameworks */,
+				BC0E9FE225BA7C3A0012F8ED /* libAkOpusDecoder.a in Frameworks */,
+				BC0E9FF325BA7C3A0012F8ED /* libAkSilenceSource.a in Frameworks */,
+				BC0E9FCD25BA7C3A0012F8ED /* libAkStreamMgr.a in Frameworks */,
+				BC0E9FD225BA7C3A0012F8ED /* libAkPeakLimiterFX.a in Frameworks */,
+				BC0E9FD325BA7C3A0012F8ED /* libAkAutobahn.a in Frameworks */,
+				BC0E9FDF25BA7C3A0012F8ED /* libAkPitchShifterFX.a in Frameworks */,
+				BC0E9FCC25BA7C3A0012F8ED /* libAkGainFX.a in Frameworks */,
+				BC0E9FCB25BA7C3A0012F8ED /* libAkMatrixReverbFX.a in Frameworks */,
+				BC0E9FD825BA7C3A0012F8ED /* libAkHarmonizerFX.a in Frameworks */,
+				BC0E9FF825BA7C3A0012F8ED /* libAkFlangerFX.a in Frameworks */,
+				BC0E9FF725BA7C3A0012F8ED /* libAkTremoloFX.a in Frameworks */,
+				BC0E9FEE25BA7C3A0012F8ED /* libAkMemoryMgr.a in Frameworks */,
+				BC0E9FEA25BA7C3A0012F8ED /* libAkRoomVerbFX.a in Frameworks */,
+				BC0E9FCA25BA7C3A0012F8ED /* libAkCompressorFX.a in Frameworks */,
+				BC0E9FD425BA7C3A0012F8ED /* libAkGuitarDistortionFX.a in Frameworks */,
+				BC0E9FEF25BA7C3A0012F8ED /* libAkMusicEngine.a in Frameworks */,
+				BC0E9FE125BA7C3A0012F8ED /* libAkToneSource.a in Frameworks */,
+				BC0E9FCF25BA7C3A0012F8ED /* libAkSoundSeedImpactFX.a in Frameworks */,
+				BC0E9FD925BA7C3A0012F8ED /* libAkSoundSeedWindSource.a in Frameworks */,
+				BC0E9FF225BA7C3A0012F8ED /* libAkSoundSeedWooshSource.a in Frameworks */,
+				BC0E9FF625BA7C3A0012F8ED /* libAkReflectFX.a in Frameworks */,
+				BC0E9FE025BA7C3A0012F8ED /* libAkConvolutionReverbFX.a in Frameworks */,
+				BC0E9FFA25BA7C3B0012F8ED /* libAkSynthOneSource.a in Frameworks */,
+				BC0E9FCE25BA7C3A0012F8ED /* libAkStereoDelayFX.a in Frameworks */,
+				BC0E9FE525BA7C3A0012F8ED /* libAkRecorderFX.a in Frameworks */,
+				BC0E9FF925BA7C3B0012F8ED /* libAkTimeStretchFX.a in Frameworks */,
+				BC0E9FD625BA7C3A0012F8ED /* libAkVorbisDecoder.a in Frameworks */,
+				BC0E9FFC25BA7D870012F8ED /* libMasteringSuiteFX.a in Frameworks */,
+				BC0E9FFB25BA7D2D0012F8ED /* libAkSoundEngine.a in Frameworks */,
+				BC0E9F3625B966D10012F8ED /* AudioToolbox.framework in Frameworks */,
+				BC0E9F3425B966980012F8ED /* CoreAudio.framework in Frameworks */,
+				BC0E9F3225B9668B0012F8ED /* CoreFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC0E9E8C25B95A610012F8ED = {
+			isa = PBXGroup;
+			children = (
+				BC0E9E9725B95A610012F8ED /* libWwise */,
+				BC0E9E9625B95A610012F8ED /* Products */,
+				BC0E9F3025B9668A0012F8ED /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BC0E9E9625B95A610012F8ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC0E9E9525B95A610012F8ED /* liblibWwise.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC0E9E9725B95A610012F8ED /* libWwise */ = {
+			isa = PBXGroup;
+			children = (
+				BC0E9EA425B964BF0012F8ED /* lib */,
+				BC0E9EA325B9648F0012F8ED /* WwiseSoundEngine */,
+				BC0E9E9825B95A610012F8ED /* libWwise.h */,
+				BC0E9E9C25B95A610012F8ED /* libWwise.cpp */,
+			);
+			path = libWwise;
+			sourceTree = "<group>";
+		};
+		BC0E9EA325B9648F0012F8ED /* WwiseSoundEngine */ = {
+			isa = PBXGroup;
+			children = (
+				BC0EA01125BA8A820012F8ED /* AkDefaultLowLevelIODispatcher.cpp */,
+				BC0EA01825BA8A820012F8ED /* AkDefaultLowLevelIODispatcher.h */,
+				BC0EA01425BA8A820012F8ED /* AkFileLocationBase.cpp */,
+				BC0EA00F25BA8A820012F8ED /* AkFileLocationBase.h */,
+				BC0EA01A25BA8A820012F8ED /* AkFilePackage.cpp */,
+				BC0EA01525BA8A820012F8ED /* AkFilePackage.h */,
+				BC0EA01025BA8A820012F8ED /* AkFilePackageLowLevelIO.h */,
+				BC0EA01625BA8A820012F8ED /* AkFilePackageLowLevelIO.inl */,
+				BC0EA01925BA8A820012F8ED /* AkFilePackageLUT.cpp */,
+				BC0EA01225BA8A820012F8ED /* AkFilePackageLUT.h */,
+				BC0EA01325BA8A820012F8ED /* AkMultipleFileLocation.cpp */,
+				BC0EA01725BA8A820012F8ED /* AkMultipleFileLocation.h */,
+				BC0EA00025BA8A6A0012F8ED /* AkDefaultIOHookBlocking.cpp */,
+				BC0E9FFD25BA8A6A0012F8ED /* AkDefaultIOHookBlocking.h */,
+				BC0E9FFE25BA8A6A0012F8ED /* AkDefaultIOHookDeferred.cpp */,
+				BC0EA00425BA8A6B0012F8ED /* AkDefaultIOHookDeferred.h */,
+				BC0EA00525BA8A6B0012F8ED /* AkFileHelpers.h */,
+				BC0EA00125BA8A6A0012F8ED /* AkFilePackageLowLevelIOBlocking.h */,
+				BC0E9FFF25BA8A6A0012F8ED /* AkFilePackageLowLevelIODeferred.h */,
+				BC0EA00225BA8A6B0012F8ED /* stdafx.cpp */,
+				BC0EA00325BA8A6B0012F8ED /* stdafx.h */,
+			);
+			path = WwiseSoundEngine;
+			sourceTree = "<group>";
+		};
+		BC0E9EA425B964BF0012F8ED /* lib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		BC0E9F3025B9668A0012F8ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC0E9FB225BA7C390012F8ED /* libAkAACDecoder.a */,
+				BC0E9FAD25BA7C390012F8ED /* libAkAudioInputSource.a */,
+				BC0E9FA225BA7C380012F8ED /* libAkAutobahn.a */,
+				BC0E9F9925BA7C380012F8ED /* libAkCompressorFX.a */,
+				BC0E9FAF25BA7C390012F8ED /* libAkConvolutionReverbFX.a */,
+				BC0E9FBA25BA7C390012F8ED /* libAkDelayFX.a */,
+				BC0E9FBF25BA7C3A0012F8ED /* libAkExpanderFX.a */,
+				BC0E9FC725BA7C3A0012F8ED /* libAkFlangerFX.a */,
+				BC0E9F9B25BA7C380012F8ED /* libAkGainFX.a */,
+				BC0E9FA325BA7C380012F8ED /* libAkGuitarDistortionFX.a */,
+				BC0E9FA725BA7C390012F8ED /* libAkHarmonizerFX.a */,
+				BC0E9F9A25BA7C380012F8ED /* libAkMatrixReverbFX.a */,
+				BC0E9FBD25BA7C3A0012F8ED /* libAkMemoryMgr.a */,
+				BC0E9FBB25BA7C390012F8ED /* libAkMeterFX.a */,
+				BC0E9FBE25BA7C3A0012F8ED /* libAkMusicEngine.a */,
+				BC0E9FB125BA7C390012F8ED /* libAkOpusDecoder.a */,
+				BC0E9FB825BA7C390012F8ED /* libAkParametricEQFX.a */,
+				BC0E9FA125BA7C380012F8ED /* libAkPeakLimiterFX.a */,
+				BC0E9FAE25BA7C390012F8ED /* libAkPitchShifterFX.a */,
+				BC0E9FB425BA7C390012F8ED /* libAkRecorderFX.a */,
+				BC0E9FC525BA7C3A0012F8ED /* libAkReflectFX.a */,
+				BC0E9FB925BA7C390012F8ED /* libAkRoomVerbFX.a */,
+				BC0E9FAC25BA7C390012F8ED /* libAkRouterMixerFX.a */,
+				BC0E9FC225BA7C3A0012F8ED /* libAkSilenceSource.a */,
+				BC0E9FA925BA7C390012F8ED /* libAkSineSource.a */,
+				BC0E9F9F25BA7C380012F8ED /* libAkSoundEngine.a */,
+				BC0E9FC025BA7C3A0012F8ED /* libAkSoundSeedGrainSource.a */,
+				BC0E9F9E25BA7C380012F8ED /* libAkSoundSeedImpactFX.a */,
+				BC0E9FA825BA7C390012F8ED /* libAkSoundSeedWindSource.a */,
+				BC0E9FC125BA7C3A0012F8ED /* libAkSoundSeedWooshSource.a */,
+				BC0E9FA025BA7C380012F8ED /* libAkSpatialAudio.a */,
+				BC0E9F9D25BA7C380012F8ED /* libAkStereoDelayFX.a */,
+				BC0E9F9C25BA7C380012F8ED /* libAkStreamMgr.a */,
+				BC0E9FC925BA7C3A0012F8ED /* libAkSynthOneSource.a */,
+				BC0E9FC825BA7C3A0012F8ED /* libAkTimeStretchFX.a */,
+				BC0E9FB025BA7C390012F8ED /* libAkToneSource.a */,
+				BC0E9FC625BA7C3A0012F8ED /* libAkTremoloFX.a */,
+				BC0E9FA525BA7C380012F8ED /* libAkVorbisDecoder.a */,
+				BC0E9FB325BA7C390012F8ED /* libAuroHeadphoneFX.a */,
+				BC0E9FA425BA7C380012F8ED /* libiZHybridReverbFX.a */,
+				BC0E9FA625BA7C390012F8ED /* libiZTrashBoxModelerFX.a */,
+				BC0E9FB725BA7C390012F8ED /* libiZTrashDelayFX.a */,
+				BC0E9FB525BA7C390012F8ED /* libiZTrashDistortionFX.a */,
+				BC0E9FC325BA7C3A0012F8ED /* libiZTrashDynamicsFX.a */,
+				BC0E9FB625BA7C390012F8ED /* libiZTrashFiltersFX.a */,
+				BC0E9FC425BA7C3A0012F8ED /* libiZTrashMultibandDistortionFX.a */,
+				BC0E9FAB25BA7C390012F8ED /* libMasteringSuiteFX.a */,
+				BC0E9FBC25BA7C3A0012F8ED /* libMcDSPFutzBoxFX.a */,
+				BC0E9FAA25BA7C390012F8ED /* libMcDSPLimiterFX.a */,
+				BC0E9F3525B966D10012F8ED /* AudioToolbox.framework */,
+				BC0E9F3325B966980012F8ED /* CoreAudio.framework */,
+				BC0E9F3125B9668B0012F8ED /* CoreFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		BC0E9E9125B95A610012F8ED /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC0EA02125BA8A830012F8ED /* AkFilePackage.h in Headers */,
+				BC0EA00D25BA8A6B0012F8ED /* AkDefaultIOHookDeferred.h in Headers */,
+				BC0EA00825BA8A6B0012F8ED /* AkFilePackageLowLevelIODeferred.h in Headers */,
+				BC0EA01B25BA8A830012F8ED /* AkFileLocationBase.h in Headers */,
+				BC0EA00625BA8A6B0012F8ED /* AkDefaultIOHookBlocking.h in Headers */,
+				BC0EA00C25BA8A6B0012F8ED /* stdafx.h in Headers */,
+				BC0EA01E25BA8A830012F8ED /* AkFilePackageLUT.h in Headers */,
+				BC0EA00E25BA8A6B0012F8ED /* AkFileHelpers.h in Headers */,
+				BC0EA02325BA8A830012F8ED /* AkDefaultLowLevelIODispatcher.h in Headers */,
+				BC0EA00A25BA8A6B0012F8ED /* AkFilePackageLowLevelIOBlocking.h in Headers */,
+				BC0EA01C25BA8A830012F8ED /* AkFilePackageLowLevelIO.h in Headers */,
+				BC0E9E9925B95A610012F8ED /* libWwise.h in Headers */,
+				BC0EA02225BA8A830012F8ED /* AkMultipleFileLocation.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		BC0E9E9425B95A610012F8ED /* libWwise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC0E9EA025B95A610012F8ED /* Build configuration list for PBXNativeTarget "libWwise" */;
+			buildPhases = (
+				BC0E9E9125B95A610012F8ED /* Headers */,
+				BC0E9E9225B95A610012F8ED /* Sources */,
+				BC0E9E9325B95A610012F8ED /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = libWwise;
+			productName = libWwise;
+			productReference = BC0E9E9525B95A610012F8ED /* liblibWwise.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC0E9E8D25B95A610012F8ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = FatDazz;
+				TargetAttributes = {
+					BC0E9E9425B95A610012F8ED = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = BC0E9E9025B95A610012F8ED /* Build configuration list for PBXProject "libWwise" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BC0E9E8C25B95A610012F8ED;
+			productRefGroup = BC0E9E9625B95A610012F8ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC0E9E9425B95A610012F8ED /* libWwise */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC0E9E9225B95A610012F8ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC0E9E9D25B95A610012F8ED /* libWwise.cpp in Sources */,
+				BC0EA01D25BA8A830012F8ED /* AkDefaultLowLevelIODispatcher.cpp in Sources */,
+				BC0EA02425BA8A830012F8ED /* AkFilePackageLUT.cpp in Sources */,
+				BC0EA00B25BA8A6B0012F8ED /* stdafx.cpp in Sources */,
+				BC0EA02025BA8A830012F8ED /* AkFileLocationBase.cpp in Sources */,
+				BC0EA00725BA8A6B0012F8ED /* AkDefaultIOHookDeferred.cpp in Sources */,
+				BC0EA01F25BA8A830012F8ED /* AkMultipleFileLocation.cpp in Sources */,
+				BC0EA02525BA8A830012F8ED /* AkFilePackage.cpp in Sources */,
+				BC0EA00925BA8A6B0012F8ED /* AkDefaultIOHookBlocking.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BC0E9E9E25B95A610012F8ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BC0E9E9F25B95A610012F8ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BC0E9EA125B95A610012F8ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z5CW9V82T9;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				HEADER_SEARCH_PATHS = "/Applications/Audiokinetic/Wwise\\ 2019.2.7.7402/SDK/include";
+				LIBRARY_SEARCH_PATHS = "/Applications/Audiokinetic/Wwise\\ 2019.2.7.7402/SDK/Mac/Release/lib";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		BC0E9EA225B95A610012F8ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z5CW9V82T9;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				HEADER_SEARCH_PATHS = "/Applications/Audiokinetic/Wwise\\ 2019.2.7.7402/SDK/include";
+				LIBRARY_SEARCH_PATHS = "/Applications/Audiokinetic/Wwise\\ 2019.2.7.7402/SDK/Mac/Release/lib";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC0E9E9025B95A610012F8ED /* Build configuration list for PBXProject "libWwise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC0E9E9E25B95A610012F8ED /* Debug */,
+				BC0E9E9F25B95A610012F8ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC0E9EA025B95A610012F8ED /* Build configuration list for PBXNativeTarget "libWwise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC0E9EA125B95A610012F8ED /* Debug */,
+				BC0E9EA225B95A610012F8ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC0E9E8D25B95A610012F8ED /* Project object */;
+}
