@@ -3,8 +3,10 @@
     {"id":{"name":"obj_avatar_1","path":"objects/obj_avatar_1/obj_avatar_1.yy",},"order":3,},
     {"id":{"name":"obj_brid","path":"objects/obj_brid/obj_brid.yy",},"order":2,},
     {"id":{"name":"spt_brid","path":"sprites/spt_brid/spt_brid.yy",},"order":17,},
+    {"id":{"name":"room_0","path":"rooms/room_0/room_0.yy",},"order":1,},
     {"id":{"name":"libWwise","path":"extensions/libWwise/libWwise.yy",},"order":0,},
     {"id":{"name":"obj_platform_1","path":"objects/obj_platform_1/obj_platform_1.yy",},"order":4,},
+    {"id":{"name":"room_menu","path":"rooms/room_menu/room_menu.yy",},"order":2,},
     {"id":{"name":"spr_avatar","path":"sprites/spr_avatar/spr_avatar.yy",},"order":15,},
     {"id":{"name":"spr_platform","path":"sprites/spr_platform/spr_platform.yy",},"order":16,},
     {"id":{"name":"obj_sondContol","path":"objects/obj_sondContol/obj_sondContol.yy",},"order":5,},
@@ -25,6 +27,8 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"Pièce1","path":"rooms/Pièce1/Pièce1.yy",},},
+    {"roomId":{"name":"room_0","path":"rooms/room_0/room_0.yy",},},
+    {"roomId":{"name":"room_menu","path":"rooms/room_menu/room_menu.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

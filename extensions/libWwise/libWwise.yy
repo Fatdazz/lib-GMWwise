@@ -73,7 +73,9 @@
         {"externalName":"gmw_GetSourcePlayPosition","kind":1,"help":"gmw_GetSourcePlayPosition(iPlayingID)","hidden":false,"returnType":2,"argCount":0,"args":[
             2,
           ],"resourceVersion":"1.0","name":"gmw_GetSourcePlayPosition","tags":[],"resourceType":"GMExtensionFunction",},
-      ],"constants":[],"ProxyFiles":[],"copyToTargets":2,"order":[
+      ],"constants":[],"ProxyFiles":[
+        {"TargetMask":6,"resourceVersion":"1.0","name":"gm_wwise_plugin.dll","tags":[],"resourceType":"GMProxyFile",},
+      ],"copyToTargets":66,"order":[
         {"name":"libWwise_init","path":"extensions/libWwise/libWwise.yy",},
         {"name":"libWwise_Function","path":"extensions/libWwise/libWwise.yy",},
         {"name":"gmw_Init","path":"extensions/libWwise/libWwise.yy",},
@@ -93,15 +95,6 @@
         {"name":"gmw_RegisterListener","path":"extensions/libWwise/libWwise.yy",},
         {"name":"gmw_SetListeners","path":"extensions/libWwise/libWwise.yy",},
         {"name":"gmw_GetSourcePlayPosition","path":"extensions/libWwise/libWwise.yy",},
-      ],"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMExtensionFile",},
-    {"filename":"gm_wwise_plugin.dll","origname":"","init":"","final":"","kind":1,"uncompress":false,"functions":[
-        {"externalName":"MyExtension_Init","kind":1,"help":"","hidden":false,"returnType":2,"argCount":0,"args":[],"resourceVersion":"1.0","name":"libWwise_Function1","tags":[],"resourceType":"GMExtensionFunction",},
-        {"externalName":"MyExtension_Function","kind":1,"help":"","hidden":false,"returnType":2,"argCount":0,"args":[
-            2,
-          ],"resourceVersion":"1.0","name":"MyExtension_Function","tags":[],"resourceType":"GMExtensionFunction",},
-      ],"constants":[],"ProxyFiles":[],"copyToTargets":64,"order":[
-        {"name":"libWwise_Function1","path":"extensions/libWwise/libWwise.yy",},
-        {"name":"MyExtension_Function","path":"extensions/libWwise/libWwise.yy",},
       ],"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMExtensionFile",},
   ],
   "classname": "",
