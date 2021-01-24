@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D09CE714-7E1A-45B9-9D77-6DD4792D14FB}" SchemaVersion="97">
+	<Switches>
+		<WorkUnit Name="Default Work Unit" ID="{D09CE714-7E1A-45B9-9D77-6DD4792D14FB}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="foodSetp" ID="{1A6B8BEF-DD5B-435D-B000-49CC347DC8F2}">
+					<ChildrenList>
+						<Switch Name="O01" ID="{738E0FFB-CA15-4AB9-A83D-D4C993716692}"/>
+						<Switch Name="O02" ID="{F2AE07F5-67F0-45C9-8D41-B8026CA9D825}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

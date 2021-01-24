@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{71240FD1-D30E-4750-B172-C1C56DECFD70}" SchemaVersion="97">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{71240FD1-D30E-4750-B172-C1C56DECFD70}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="libWwise" ID="{C52AEF8F-46A1-4062-9F7B-11FF7757D75D}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_foodstep" ID="{5FC15DCF-4D9C-40FF-B01E-3CBEEF709061}" WorkUnitID="{2DC6E2CF-D256-4387-9E8E-0868C8C01140}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_QP01_0014_Rain_downpour" ID="{1945FA17-FA12-41DB-B7B0-D714DEED7971}" WorkUnitID="{2DC6E2CF-D256-4387-9E8E-0868C8C01140}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Lion_snarl_wet_08_08x" ID="{C0AFD7B7-BF57-4CDF-95BE-571137E4A01B}" WorkUnitID="{2DC6E2CF-D256-4387-9E8E-0868C8C01140}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_QP01_0014_Rain_downpour" ID="{564E8E1E-E408-4F0D-A863-64041BDCF54F}" WorkUnitID="{2DC6E2CF-D256-4387-9E8E-0868C8C01140}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2DC6E2CF-D256-4387-9E8E-0868C8C01140}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{2DC6E2CF-D256-4387-9E8E-0868C8C01140}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_QP01_0014_Rain_downpour" ID="{564E8E1E-E408-4F0D-A863-64041BDCF54F}">
+					<ChildrenList>
+						<Action Name="" ID="{70758F3B-42BB-43AA-BB36-56D9B849B6B7}" ShortID="346317450">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="QP01 0014 Rain downpour" ID="{16EBDC91-BB3F-4F69-B956-E283556B588B}" WorkUnitID="{BF762781-4740-4FA1-8834-CDE91FE6BE0D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_QP01_0014_Rain_downpour" ID="{1945FA17-FA12-41DB-B7B0-D714DEED7971}">
+					<ChildrenList>
+						<Action Name="" ID="{2999D7C6-1A8F-4785-A997-816586368096}" ShortID="36252263">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="QP01 0014 Rain downpour" ID="{16EBDC91-BB3F-4F69-B956-E283556B588B}" WorkUnitID="{BF762781-4740-4FA1-8834-CDE91FE6BE0D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_foodstep" ID="{5FC15DCF-4D9C-40FF-B01E-3CBEEF709061}">
+					<ChildrenList>
+						<Action Name="" ID="{5E61A928-5366-484C-8F62-62AEB38B8DA1}" ShortID="184972838">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="foodstep" ID="{EFB1A131-B762-46E4-9503-E16A7A199D21}" WorkUnitID="{BF762781-4740-4FA1-8834-CDE91FE6BE0D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Lion_snarl_wet_08_08x" ID="{C0AFD7B7-BF57-4CDF-95BE-571137E4A01B}">
+					<ChildrenList>
+						<Action Name="" ID="{A35F3221-8966-42E0-8E6C-7D29F7B2F8AC}" ShortID="158571402">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Lion_snarl_wet_08_08x" ID="{BA5F2D3F-9E4A-40BF-BB33-4587BBF61B66}" WorkUnitID="{BF762781-4740-4FA1-8834-CDE91FE6BE0D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

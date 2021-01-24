@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationCache Version="1" SchemaVersion="97">
+	<ValidationCacheItem File="Y:\Documents\WwiseProjects\libWwise\Virtual Acoustics\Default Work Unit.wwu" DateLow="1611362652" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\WwiseProjects\libWwise\Triggers\Default Work Unit.wwu" DateLow="1611362652" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\WwiseProjects\libWwise\Switches\Default Work Unit.wwu" DateLow="1611392509" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\WwiseProjects\libWwise\States\Default Work Unit.wwu" DateLow="1611452726" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\WwiseProjects\libWwise\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1611362652" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\WwiseProjects\libWwise\SoundBanks\Default Work Unit.wwu" DateLow="1611452726" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\WwiseProjects\libWwise\Queries\Factory Queries.wwu" DateLow="1611142486" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\WwiseProjects\libWwise\Queries\Default Work Unit.wwu" DateLow="1611362652" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\WwiseProjects\libWwise\Presets\Factory Spatial Audio.wwu" DateLow="1611142486" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\WwiseProjects\libWwise\Presets\Default Work Unit.wwu" DateLow="1611362652" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\WwiseProjects\libWwise\Modulators\Default Work Unit.wwu" DateLow="1611362652" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\WwiseProjects\libWwise\Mixing Sessions\Default Work Unit.wwu" DateLow="1611362652" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\WwiseProjects\libWwise\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1611362652" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\WwiseProjects\libWwise\libWwise.wproj" DateLow="1611393215" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\WwiseProjects\libWwise\libWwise.crossover.wsettings" DateLow="1611470798" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\WwiseProjects\libWwise\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1611452726" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\WwiseProjects\libWwise\Game Parameters\Default Work Unit.wwu" DateLow="1611452726" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\WwiseProjects\libWwise\Events\Default Work Unit.wwu" DateLow="1611459577" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\WwiseProjects\libWwise\Effects\Factory Effects.wwu" DateLow="1611142486" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\WwiseProjects\libWwise\Effects\Factory Convolution Reverb Effects Stereo.wwu" DateLow="1611142488" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\WwiseProjects\libWwise\Effects\Factory Convolution Reverb Effects Ambisonics.wwu" DateLow="1611142488" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\WwiseProjects\libWwise\Effects\Default Work Unit.wwu" DateLow="1611362652" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\WwiseProjects\libWwise\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1611362652" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\WwiseProjects\libWwise\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1611142486" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\WwiseProjects\libWwise\Conversion Settings\Default Work Unit.wwu" DateLow="1611362652" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\WwiseProjects\libWwise\Control Surface Sessions\Default Work Unit.wwu" DateLow="1611362652" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\WwiseProjects\libWwise\Audio Devices\Default Work Unit.wwu" DateLow="1611362652" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\WwiseProjects\libWwise\Attenuations\Default Work Unit.wwu" DateLow="1611470798" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\WwiseProjects\libWwise\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1611470798" DateHigh="0"/>
+</ValidationCache>

@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{BF762781-4740-4FA1-8834-CDE91FE6BE0D}" SchemaVersion="97">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{BF762781-4740-4FA1-8834-CDE91FE6BE0D}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="QP01 0014 Rain downpour" ID="{16EBDC91-BB3F-4F69-B956-E283556B588B}" ShortID="176568402">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<RTPCList>
+								<RTPC Name="" ID="{FA2D2667-4B76-4CAE-9F81-94C0B0CAB4FC}" ShortID="1042360732">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="volume" ID="{83C6DE26-DC8E-4E54-8BF0-78F53426CD08}" WorkUnitID="{F3C54F1D-C5DF-4BC1-9E1D-9EB4BE41ECA3}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{FA239A9D-CAC0-41C9-8448-59F1AFAE55C4}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-200</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>1</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{88DF6402-C857-41B4-8D0C-06BF26243A33}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E689D7C7-2A28-4D75-9070-C03EB3A0BA50}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="QP01 0014 Rain downpour" ID="{CD757CC0-555F-4CE9-8CAB-9C61D3DE4B99}">
+							<Language>SFX</Language>
+							<AudioFile>QP01 0014 Rain downpour.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="271708710"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="QP01 0014 Rain downpour" ID="{CD757CC0-555F-4CE9-8CAB-9C61D3DE4B99}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<SwitchContainer Name="foodstep" ID="{EFB1A131-B762-46E4-9503-E16A7A199D21}" ShortID="127574791">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{88DF6402-C857-41B4-8D0C-06BF26243A33}"/>
+						</Reference>
+						<Reference Name="DefaultSwitchOrState">
+							<ObjectRef Name="O01" ID="{738E0FFB-CA15-4AB9-A83D-D4C993716692}" WorkUnitID="{D09CE714-7E1A-45B9-9D77-6DD4792D14FB}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E689D7C7-2A28-4D75-9070-C03EB3A0BA50}"/>
+						</Reference>
+						<Reference Name="SwitchGroupOrStateGroup">
+							<ObjectRef Name="foodSetp" ID="{1A6B8BEF-DD5B-435D-B000-49CC347DC8F2}" WorkUnitID="{D09CE714-7E1A-45B9-9D77-6DD4792D14FB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="step_01" ID="{00996AA5-BD4A-4BB0-B047-4A3E4CC0BC1C}" ShortID="355535977">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{B1BEF3E0-AB2F-43C5-BFCF-980347BDD321}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="606"/>
+													<Property Name="Min" Type="Real64" Value="-480"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{88DF6402-C857-41B4-8D0C-06BF26243A33}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E689D7C7-2A28-4D75-9070-C03EB3A0BA50}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Tom05B-EQ RhyBoxAmp" ID="{D9A16B51-DA7E-45AD-9E3B-0481565282D6}">
+									<Language>SFX</Language>
+									<AudioFile>Tom05B-EQ RhyBoxAmp.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="112938577"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Tom05B-EQ RhyBoxAmp" ID="{D9A16B51-DA7E-45AD-9E3B-0481565282D6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="step_02" ID="{5FA2E13F-9E1B-4FF5-8B80-52E3822CCA8B}" ShortID="518816454">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{C57E386B-D241-4D1C-9A70-4C131CD9561F}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="581"/>
+													<Property Name="Min" Type="Real64" Value="-581"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{88DF6402-C857-41B4-8D0C-06BF26243A33}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E689D7C7-2A28-4D75-9070-C03EB3A0BA50}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Tom43B-EQ RhyBoxAmp" ID="{8F04A885-C4F4-40DD-8DF2-037ADEED474D}">
+									<Language>SFX</Language>
+									<AudioFile>Tom43B-EQ RhyBoxAmp.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="4671233"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Tom43B-EQ RhyBoxAmp" ID="{8F04A885-C4F4-40DD-8DF2-037ADEED474D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<GroupingInfo>
+						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="step_02" ID="{5FA2E13F-9E1B-4FF5-8B80-52E3822CCA8B}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="step_01" ID="{00996AA5-BD4A-4BB0-B047-4A3E4CC0BC1C}"/>
+							</GroupingBehavior>
+						</GroupingBehaviorList>
+						<GroupingList>
+							<Grouping>
+								<SwitchRef Name="O02" ID="{F2AE07F5-67F0-45C9-8D41-B8026CA9D825}"/>
+								<ItemList>
+									<ItemRef Name="step_02" ID="{5FA2E13F-9E1B-4FF5-8B80-52E3822CCA8B}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="O01" ID="{738E0FFB-CA15-4AB9-A83D-D4C993716692}"/>
+								<ItemList>
+									<ItemRef Name="step_01" ID="{00996AA5-BD4A-4BB0-B047-4A3E4CC0BC1C}"/>
+								</ItemList>
+							</Grouping>
+						</GroupingList>
+					</GroupingInfo>
+				</SwitchContainer>
+				<ActorMixer Name="lion" ID="{34C7A761-2384-4A17-84B2-2631D20248DD}" ShortID="58316147">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="lion" ID="{42720EF6-1635-445B-A9FB-E024946E1D2D}" WorkUnitID="{D6BE3005-3A98-4CCA-B437-2943C923A9C2}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{88DF6402-C857-41B4-8D0C-06BF26243A33}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E689D7C7-2A28-4D75-9070-C03EB3A0BA50}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Lion_snarl_wet_08_08x" ID="{BA5F2D3F-9E4A-40BF-BB33-4587BBF61B66}" ShortID="869949439">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<RTPCList>
+										<RTPC Name="" ID="{CBA1B70C-39E8-4B30-9118-7F50F915C9EF}" ShortID="855301167">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="lion" ID="{06BBCE0B-96FA-4130-9EAE-34E6DEB1C601}" WorkUnitID="{F3C54F1D-C5DF-4BC1-9E1D-9EB4BE41ECA3}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{73B17769-9614-4575-86FE-DD70FE258A1B}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-1155</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>1245</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="lion" ID="{42720EF6-1635-445B-A9FB-E024946E1D2D}" WorkUnitID="{D6BE3005-3A98-4CCA-B437-2943C923A9C2}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{88DF6402-C857-41B4-8D0C-06BF26243A33}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E689D7C7-2A28-4D75-9070-C03EB3A0BA50}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Lion_snarl_wet_08_08x" ID="{A4B521FE-2F0D-4336-82EB-FDE45E8B70D7}">
+									<Language>SFX</Language>
+									<AudioFile>Lion_snarl_wet_08_08x.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="622289235"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<PositioningInfo>
+								<Position Name="" ID="{A690F90F-693F-48EC-B129-D1FB21AF3C36}"/>
+							</PositioningInfo>
+							<ActiveSourceList>
+								<ActiveSource Name="Lion_snarl_wet_08_08x" ID="{A4B521FE-2F0D-4336-82EB-FDE45E8B70D7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<PositioningInfo>
+						<Panner Name="" ID="{A77DAA48-F1AF-497D-82F3-E34B789457D9}">
+							<PropertyList>
+								<Property Name="PanX" Type="Real64" Value="92.0770877944326"/>
+								<Property Name="PanY" Type="Real64" Value="93.8496583143508"/>
+							</PropertyList>
+						</Panner>
+						<Position Name="" ID="{964E90B9-F0BD-4120-AD1A-90B787AE2C04}"/>
+					</PositioningInfo>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

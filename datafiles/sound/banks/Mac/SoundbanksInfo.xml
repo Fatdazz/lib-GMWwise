@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="135">
+	<RootPaths>
+		<ProjectRoot>/Users/fatdazz/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/WwiseProjects/libWwise/</ProjectRoot>
+		<SourceFilesRoot>/Users/fatdazz/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/WwiseProjects/libWwise/.cache/Mac/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/fatdazz/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/GameMakerStudio2/libGMWwise/datafiles/sound/banks/Mac/</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>/Users/fatdazz/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/WwiseProjects/libWwise/GeneratedSoundBanks/Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="1932741318">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="2143037169" Language="SFX" Hash="1810906486">
+			<ObjectPath>\SoundBanks\Default Work Unit\libWwise</ObjectPath>
+			<ShortName>libWwise</ShortName>
+			<Path>libWwise.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1928490972" Name="Play_foodstep" ObjectPath="\Events\Default Work Unit\Play_foodstep">
+					<IncludedMemoryFiles>
+						<File Id="4671233" Language="SFX">
+							<ShortName>Tom43B-EQ RhyBoxAmp.wav</ShortName>
+							<Path>SFX/Tom43B-EQ RhyBoxAmp_10C4C929.wem</Path>
+						</File>
+						<File Id="112938577" Language="SFX">
+							<ShortName>Tom05B-EQ RhyBoxAmp.wav</ShortName>
+							<Path>SFX/Tom05B-EQ RhyBoxAmp_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{738E0FFB-CA15-4AB9-A83D-D4C993716692}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{738E0FFB-CA15-4AB9-A83D-D4C993716692}">
+							<Media>
+								<File Id="112938577"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{F2AE07F5-67F0-45C9-8D41-B8026CA9D825}">
+							<Media>
+								<File Id="4671233"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="3894661812" Name="Play_Lion_snarl_wet_08_08x" ObjectPath="\Events\Default Work Unit\Play_Lion_snarl_wet_08_08x">
+					<IncludedMemoryFiles>
+						<File Id="622289235" Language="SFX">
+							<ShortName>Lion_snarl_wet_08_08x.wav</ShortName>
+							<Path>SFX/Lion_snarl_wet_08_08x_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="683783014" Name="Play_QP01_0014_Rain_downpour" ObjectPath="\Events\Default Work Unit\Play_QP01_0014_Rain_downpour">
+					<IncludedMemoryFiles>
+						<File Id="271708710" Language="SFX">
+							<ShortName>QP01 0014 Rain downpour.wav</ShortName>
+							<Path>SFX/QP01 0014 Rain downpour_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1473037912" Name="Stop_QP01_0014_Rain_downpour" ObjectPath="\Events\Default Work Unit\Stop_QP01_0014_Rain_downpour"/>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="153136435" Name="lion" ObjectPath="\Game Parameters\Default Work Unit\lion"/>
+				<GameParameter Id="2415836739" Name="volume" ObjectPath="\Game Parameters\Default Work Unit\volume"/>
+			</GameParameters>
+			<SwitchGroups>
+				<SwitchGroup Id="2966532765" Name="foodSetp" ObjectPath="\Switches\Default Work Unit\foodSetp">
+					<Switches>
+						<Switch Id="1635372049" Name="O01" ObjectPath="\Switches\Default Work Unit\foodSetp\O01"/>
+						<Switch Id="1635372050" Name="O02" ObjectPath="\Switches\Default Work Unit\foodSetp\O02"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

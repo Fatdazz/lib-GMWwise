@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F3C54F1D-C5DF-4BC1-9E1D-9EB4BE41ECA3}" SchemaVersion="97">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{F3C54F1D-C5DF-4BC1-9E1D-9EB4BE41ECA3}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="volume" ID="{83C6DE26-DC8E-4E54-8BF0-78F53426CD08}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0.25"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="lion" ID="{06BBCE0B-96FA-4130-9EAE-34E6DEB1C601}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0.5"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>
