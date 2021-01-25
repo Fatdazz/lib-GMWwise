@@ -13,4 +13,4 @@ show_debug_message("gmw_RegisterListener : "  + string(gmw_RegisterListener(id) 
 
 //
 mo = 0;
-gmw_PostEvent(683783014,id);
+//gmw_PostEvent(683783014,id);
